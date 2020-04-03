@@ -144,10 +144,16 @@ footer {
 
 @media screen and (max-width: 720px) {
     .search-screen, .results-screen {
-        width: 90vw;
+        width: 95vw;
     }
     .title {
         font-size: 3rem;
+    }
+    .footer-img {
+        top: 75%;
+    }
+    footer {
+        top: 95%;
     }
 }
 
