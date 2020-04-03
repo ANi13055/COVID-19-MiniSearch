@@ -23,7 +23,7 @@ body {
 }
 /* search content */
 .search-screen, .results-screen {
-    width: 70vw;
+    width: 30vw;
     height: 85vh;
     text-align: center;
     background: rgba(154,213,224,0.5);
@@ -153,10 +153,29 @@ footer {
         top: 75%;
     }
     footer {
-        top: 95%;
+        top: 94%;
     }
 }
-
+@media screen and (max-width: 1280px) {
+    .search-screen, .results-screen {
+        width: 60vw;
+    }
+} 
+@media screen and (max-width: 960px) {
+    .search-screen, .results-screen {
+        width: 50vw;
+    }
+} 
+@media screen and (max-width: 610px) {
+    .search-screen, .results-screen {
+        width: 60vw;
+    }
+} 
+@media screen and (max-width: 420px) {
+    .search-screen, .results-screen {
+        width: 80vw;
+    }
+} 
 
 /* model content */
 .modal {
