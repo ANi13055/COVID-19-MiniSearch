@@ -88,7 +88,7 @@ body {
 }
 .footer-img {
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 50%;
     z-index: -1;
     transform: translate(-50%, -50%);
@@ -96,7 +96,7 @@ body {
 }
 footer {
     position: absolute;
-    top: 90%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
