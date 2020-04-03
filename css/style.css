@@ -90,9 +90,7 @@ body {
     position: absolute;
     top: 75%;
     left: 50%;
-    z-index: -1;
     transform: translate(-50%, -50%);
-    z-index: -9;
 }
 footer {
     position: absolute;
