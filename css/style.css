@@ -150,7 +150,21 @@ footer {
         font-size: 3rem;
     }
 }
-
+@media screen and (max-width: 960px) {
+    .search-screen, .results-screen {
+        width: 50vw;
+    }
+} 
+@media screen and (max-width: 610px) {
+    .search-screen, .results-screen {
+        width: 60vw;
+    }
+} 
+@media screen and (max-width: 420px) {
+    .search-screen, .results-screen {
+        width: 80vw;
+    }
+} 
 
 /* model content */
 .modal {
