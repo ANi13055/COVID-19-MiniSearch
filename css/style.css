@@ -150,6 +150,11 @@ footer {
         font-size: 3rem;
     }
 }
+@media screen and (max-width: 1440px) {
+    .search-screen, .results-screen {
+        width: 60vw;
+    }
+} 
 @media screen and (max-width: 960px) {
     .search-screen, .results-screen {
         width: 50vw;
