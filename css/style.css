@@ -149,6 +149,12 @@ footer {
     .title {
         font-size: 3rem;
     }
+    .footer-img {
+        top: 75;
+    }
+    footer {
+        top: 94;
+    }
 }
 @media screen and (max-width: 1280px) {
     .search-screen, .results-screen {
